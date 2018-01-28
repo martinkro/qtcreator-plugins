@@ -1,0 +1,11 @@
+{
+    \"Name\" : \"Example2\",
+    \"Version\" : \"0.0.1\",
+    \"CompatVersion\" : \"0.0.1\",
+    \"Vendor\" : \"TATA\",
+    \"Copyright\" : \"(C) TaTa\",
+    \"License\" : \"MIT\",
+    \"Description\" : \"minimal plugin example\",
+    \"Url\" : \"http://www.tatamobile.net\",
+    $$dependencyList
+}
