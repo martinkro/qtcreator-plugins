@@ -9,6 +9,7 @@ SOURCES += exampleplugin.cpp
 HEADERS += exampleplugin.h \
         example_global.h \
         exampleconstants.h
+RESOURCES += welcome.qrc
         
 DEFINES += EXAMPLE_LIBRARY
 

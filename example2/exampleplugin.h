@@ -4,9 +4,10 @@
 
 #include <extensionsystem/iplugin.h>
 
-namespace Example {
+namespace Example2 {
 namespace Internal {
 
+class WelcomeMode;
 class ExamplePlugin : public ExtensionSystem::IPlugin
 {
     Q_OBJECT
@@ -22,6 +23,10 @@ public:
 
 private slots:
     void triggerAction();
+    void onActionAbout();
+
+private:
+	WelcomeMode *m_welcomeMode = nullptr;
 };
 
 } // namespace Internal
